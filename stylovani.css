@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -47,7 +50,6 @@ nav ul li{
 
 .logo{
     font-size: 28px;
-
 }
 
 .hero{
@@ -63,7 +65,6 @@ nav ul li{
     text-align: center;
     padding: 180px 0;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
 .hero .overlay {
@@ -105,7 +106,6 @@ nav ul li{
     width: 70%;
     padding: 10px;
     outline: none;
-    border: 0;
     border-radius: 5px 0 0 5px;
     font-size: 1rem;
     border: 1px solid gray;
@@ -113,7 +113,6 @@ nav ul li{
 
 .search_box button{
     padding: 10px 20px;
-    outline: none;
     border: 0;
     border-radius: 0 5px 5px 0;
     font-size: 1rem;
@@ -191,7 +190,7 @@ nav ul li{
     padding: 30px 0;
 }
 
-.about .container {
+.about_section {
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -208,3 +207,27 @@ nav ul li{
     line-height: 1.5;
     margin-bottom: 20px;
 }
+
+.contact {
+    background: #f9f9f9;
+    padding: 30px 0;
+}
+
+.contact_section {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
