@@ -7,12 +7,12 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 body{
     width: 100%;
-    min-height: 100vh;
-    background: white;   
+    min-height: 100vh;  
 }
 
 header{
@@ -26,6 +26,11 @@ header{
     display: flex;
     align-items: center;
     z-index: 100;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
 }
 
 .container{
@@ -108,7 +113,7 @@ nav ul li{
     outline: none;
     border-radius: 5px 0 0 5px;
     font-size: 1rem;
-    border: 1px solid gray;
+    border: 1px solid rgb(104, 104, 104);;
 }
 
 .search_box button{
@@ -116,7 +121,7 @@ nav ul li{
     border: 0;
     border-radius: 0 5px 5px 0;
     font-size: 1rem;
-    background: gray;
+    background: rgb(104, 104, 104);
     color: white;
     cursor: pointer;
 }
@@ -127,7 +132,7 @@ nav ul li{
 
 .recipes{
     padding: 50px 0;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 80px;
 }
 
 .recipes h1{
