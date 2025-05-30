@@ -56,3 +56,41 @@ body {
     text-align: center; 
     color: rgb(43, 41, 41)
 }
+
+.recipe_columns {
+    display: flex;
+    gap: 60px;
+    
+}
+
+.recipe_columns > div {
+    flex: 1;
+    background-color: rgba(249, 249, 249, 0.582);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+.recipe_text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #313131;
+}
+
+.instructions ol,
+.ingredients ul {
+    font-size: 20px;
+    line-height: 2;
+    padding-left: 20px;
+    margin: 0;
+    color: #555;
+}
+
+.ingredients {
+    order: 1;
+}
+
+.instructions {
+    order: 2; 
+}
