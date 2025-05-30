@@ -15,3 +15,16 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
+.recipe_info {
+    position: relative;
+    background-color: rgba(247, 244, 244, 0.943);
+    width: 85%; 
+    display: flex;
+    margin: 150px auto 0;
+    border-radius: 25px;
+    border: 10px solid #b9b7b709;
+    overflow: hidden;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    z-index: 2;
+}
